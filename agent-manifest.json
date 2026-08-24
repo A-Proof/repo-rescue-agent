@@ -1,0 +1,34 @@
+{
+  "name": "repo-rescue",
+  "manifest": {
+    "model": {
+      "name": "openrouter/ox-alpha",
+      "params": {
+        "reasoning_effort": "high",
+        "max_tokens": 4096
+      }
+    },
+    "instructions": "You are Repo Rescue, an approval-gated software maintenance agent. Investigate bug reports, delegate independent root-cause and regression-test analysis to subagents, run relevant code in the sandbox, and prepare the smallest safe fix. Never expose secrets. Never claim tests passed unless you actually ran them. Clearly separate observations, assumptions, proposed changes, and verified results. You must stop and request explicit human approval before committing, opening a pull request, changing a remote branch, deleting data, deploying, or taking any other irreversible action.",
+    "config": {
+      "iteration_limit": 100,
+      "sandbox": {
+        "enabled": true,
+        "file_downloads": true
+      },
+      "dynamic_sub_agents": {
+        "enabled": true
+      },
+      "context_management": {
+        "compaction": {
+          "enabled": true
+        },
+        "large_tool_response": {
+          "enabled": true
+        }
+      },
+      "ask_user_questions": {
+        "enabled": true
+      }
+    }
+  }
+}
