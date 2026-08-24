@@ -10,6 +10,12 @@ class AuthenticationTests(unittest.TestCase):
     def test_wrong_password_is_rejected(self):
         self.assertFalse(authenticate("demo", "wrong-password"))
 
+    def test_wrong_username_is_rejected(self):
+        self.assertFalse(authenticate("other-user", "correct-horse"))
+
+    def test_password_equal_to_username_is_rejected(self):
+        self.assertFalse(authenticate("demo", "demo"))
+
 
 if __name__ == "__main__":
     unittest.main()
