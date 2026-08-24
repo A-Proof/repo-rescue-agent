@@ -24,7 +24,7 @@ The `fixture/` directory contains an intentionally failing authentication test. 
 
 ## Submission checklist
 
-- [ ] Install Qodo on this repository if entering Best Code Quality.
+- [ ] Install Qodo on this repository (required for every submission).
 - [ ] Create a meaningful pull request.
 - [ ] Let Qodo review it.
 - [ ] Address at least one review finding and push a follow-up commit.

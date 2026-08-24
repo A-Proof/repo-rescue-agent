@@ -49,7 +49,7 @@ For the final video, show the complete loop:
 ## Submission checklist
 
 - [ ] Public repository with this README and reproducible fixture.
-- [ ] Qodo installed before the first meaningful change if entering the code-quality track.
+- [ ] Qodo installed before the first meaningful change (required for every submission).
 - [ ] At least one reviewed pull request.
 - [ ] Demo clearly shows MCP, subagents, sandbox execution, and approval.
 - [ ] No secrets in source, screenshots, logs, or video.
