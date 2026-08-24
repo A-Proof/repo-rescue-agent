@@ -53,3 +53,7 @@ For the final video, show the complete loop:
 - [ ] At least one reviewed pull request.
 - [ ] Demo clearly shows MCP, subagents, sandbox execution, and approval.
 - [ ] No secrets in source, screenshots, logs, or video.
+
+## Review trail
+
+The substantive demo change is tracked in [PR #1](https://github.com/A-Proof/repo-rescue-agent/pull/1). Install [Qodo for GitHub](https://app.qodo.ai/signin), connect it to this repository, and let it review that pull request. Address its findings in a follow-up commit before recording the final demo.

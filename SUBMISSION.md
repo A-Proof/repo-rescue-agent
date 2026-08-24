@@ -32,3 +32,7 @@ The `fixture/` directory contains an intentionally failing authentication test. 
 - [ ] Submit the repository, video, and write-up through the WeMakeDevs form.
 
 No credentials belong in this repository, the video, or the write-up.
+
+## Review trail
+
+Substantive change: [PR #1](https://github.com/A-Proof/repo-rescue-agent/pull/1). Qodo should review this PR, and its findings should be addressed in a follow-up commit before final recording.
